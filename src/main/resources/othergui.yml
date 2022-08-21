@@ -1,0 +1,18 @@
+# HelpGUI v1.0.3
+#
+# Please report bugs here: https://github.com/Ziomkeee/HelpGUI/issues
+# How to configure a plugin: https://github.com/Ziomkeee/HelpGUI/wiki
+#
+GUI:
+  otherGUI:
+    name: "OtherGUI"
+    size: 54
+    items:
+      5:
+        material: "stone"
+        amount: 1
+        enchant: true
+        name: "&a&lExample"
+        lore:
+        - '&aHey!'
+        action: "first"

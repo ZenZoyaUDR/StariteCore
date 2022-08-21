@@ -1,0 +1,12 @@
+name: StariteCore
+version: '${project.version}'
+main: me.zenzoyaudr.staritecore.Main
+api-version: 1.16
+authors: [ ZenZoyaUDR ]
+commands:
+  test:
+    description: A simple test command
+  gui:
+    description: A test gui
+  glowgui:
+    description: A Glow Menu
