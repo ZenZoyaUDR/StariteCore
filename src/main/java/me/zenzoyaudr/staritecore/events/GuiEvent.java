@@ -12,7 +12,7 @@ public class GuiEvent extends Event {
     Player player;
 
     public GuiEvent(Player player) {
-        this.player =player;
+        this.player = player;
     }
 
     public Player getPlayer() {

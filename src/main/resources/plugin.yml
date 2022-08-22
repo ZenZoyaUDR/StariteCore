@@ -6,7 +6,5 @@ authors: [ ZenZoyaUDR ]
 commands:
   test:
     description: A simple test command
-  gui:
+  menu:
     description: A test gui
-  glowgui:
-    description: A Glow Menu

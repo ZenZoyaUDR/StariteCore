@@ -18,12 +18,11 @@ class Main : JavaPlugin() {
 
     private fun registerEvents() {
         server.pluginManager.registerEvents(TestGui(), this);
-        
     }
 
     private fun registerCommands() {
         getCommand("test")?.setExecutor(TestCommand());
-        getCommand("gui")?.setExecutor(GuiCommand());
+        getCommand("menu")?.setExecutor(GlowCommand());
     }
 
     override fun onDisable() {
