@@ -9,16 +9,16 @@ class Main : JavaPlugin() {
 
     override fun onEnable() {
         // Register Stuff
-        registerEvents();
+        server.pluginManager.registerEvents(TestGui(), this);
         registerCommands();
 
         // Info on Enabled
         logger.info("Plugin Enabled!")
     }
 
-    private fun registerEvents() {
-        server.pluginManager.registerEvents(TestGui(), this);
-    }
+//    private fun registerEvents() {
+//        server.pluginManager.registerEvents(TestGui(), this);
+//    }
 
     private fun registerCommands() {
         getCommand("test")?.setExecutor(TestCommand());
